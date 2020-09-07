@@ -3,7 +3,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from urllib.parse import quote_plus
 
-class searchSOF(commands.Cog):
+class searchSOF():
 
     baseUrl = 'https://stackoverflow.com/'
     search = input()
